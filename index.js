@@ -12,7 +12,7 @@ let Bot  = require('@kikinteractive/kik');
 let bot = new Bot({
     username: 'theyoshimother',
     apiKey: '4df5dfc3-b50a-450f-a144-b483660e848a',
-    baseUrl: 'http://nodejs-yoshibot.rhcloud.com:8080'
+    baseUrl: 'http://nodejs-yoshibot.rhcloud.com'
 });
 
 bot.updateBotConfiguration();
