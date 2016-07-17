@@ -12,7 +12,7 @@ let Bot  = require('@kikinteractive/kik');
 let bot = new Bot({
     username: 'theyoshimother',
     apiKey: '51146413-6936-484f-b43b-d40bf47b4341',
-    baseUrl: 'http://yoshibot.cn8vdt89vx.us-west-2.elasticbeanstalk.com/:8080'
+    baseUrl: 'http://ec2-52-34-43-184.us-west-2.compute.amazonaws.com:8080'
 });
 
 bot.updateBotConfiguration();
