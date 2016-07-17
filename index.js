@@ -11,8 +11,8 @@ let Bot  = require('@kikinteractive/kik');
 // PevenStinker
 let bot = new Bot({
     username: 'theyoshimother',
-    apiKey: '4df5dfc3-b50a-450f-a144-b483660e848a',
-    baseUrl: 'http://nodejs-yoshibot.rhcloud.com'
+    apiKey: '51146413-6936-484f-b43b-d40bf47b4341',
+    baseUrl: 'http://yoshibot.cn8vdt89vx.us-west-2.elasticbeanstalk.com/:8080'
 });
 
 bot.updateBotConfiguration();
