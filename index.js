@@ -10,9 +10,9 @@ let Bot  = require('@kikinteractive/kik');
 
 // PevenStinker
 let bot = new Bot({
-    username: 'pevenstinker',
-    apiKey: '761d6e3c-8047-4aab-8e64-0be784e4813e',
-    baseUrl: 'http://ec2-52-24-214-252.us-west-2.compute.amazonaws.com:8080'
+    username: 'theyoshimother',
+    apiKey: '4df5dfc3-b50a-450f-a144-b483660e848a',
+    baseUrl: 'http://nodejs-yoshibot.rhcloud.com:8080'
 });
 
 bot.updateBotConfiguration();
