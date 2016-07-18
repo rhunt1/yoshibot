@@ -26,18 +26,21 @@ bot.onTextMessage(/are you a bot|Are you a bot?|you a bot?|bot|bot?$/i, (incomin
 
 // [handler] on greeting
 bot.onTextMessage(/^hi|hello|bonjour|sup|🐮$/i, (incoming, bot) => {
-  incoming.reply(`🐮`);
+  incoming.reply(`loo`);
 });
 
 //bot.onTextMessage(/^meme|nene|naynay|naenae$/i, (incoming, bot) => {
 //  return incoming.reply(`Birds are very important :^)`)
-//})
+//})  
 
-// [handler] on time
-bot.onTextMessage(/give me the time$/i, (incoming, next) => {
-  const time = moment.utc().format('YYYY-MM-DD HH:mm:ss')
-  return incoming.reply(`The time is ${time}`)
-})
+bot.onTextMessage(/^yoshi$/i, (incoming, bot) => {
+  incoming.reply(`mama`);
+}); 
+
+bot.onTextMessage(/^eeza|asa|colin|andy|ryan|annie$/i, (incoming, bot) => {
+  incoming.reply(`band`);
+});
+
 
 // [handler] on name
 bot.onTextMessage(/^name$/i, (incoming, bot) => {
