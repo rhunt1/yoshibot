@@ -54,7 +54,7 @@ bot.onTextMessage(/^i$/i, (incoming, bot) => {
 })
 
 bot.onTextMessage(/^🐖|🐷|banti$/i, (incoming, bot) => {
-return incoming.reply('Die')
+return incoming.reply('Im a big fan of pigs')
 })
 
 bot.onTextMessage(/^kiss me|love me|fuck me|fugg me|succ|succ me|I love you$/i, (incoming, bot) => {
