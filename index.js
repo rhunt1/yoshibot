@@ -37,28 +37,28 @@ bot.onTextMessage(/^yoshi$/i, (incoming, bot) => {
   incoming.reply(`mama`);
 }); 
 
-bot.onTextMessage(/^eeza|asa|colin|andy|ryan|annie$/i, (incoming, bot) => {
+bot.onTextMessage(/^eeza|asa$/i, (incoming, bot) => {
   incoming.reply(`band`);
 });
 
 
 // [handler] on name
 bot.onTextMessage(/^name$/i, (incoming, bot) => {
-  return incoming.reply(`hey haha i'm Peven.`)
+  return incoming.reply(`I am the yoshi mother.`)
 })
 
 
 
 bot.onTextMessage(/^i$/i, (incoming, bot) => {
-  return incoming.reply(`nipple god`)
+  return incoming.reply(`el yoshi`)
 })
 
-bot.onTextMessage(/^🐖|🐷|banti$/i, (incoming, bot) => {
+bot.onTextMessage(/^🐖|🐷|pig|pigs$/i, (incoming, bot) => {
 return incoming.reply('Im a big fan of pigs')
 })
 
 bot.onTextMessage(/^kiss me|love me|fuck me|fugg me|succ|succ me|I love you$/i, (incoming, bot) => {
-return incoming.reply('bby')
+return incoming.reply('I want the thickness in my ass')
 })
 
 bot.onTextMessage(/^👽|ayy$/i, (incoming, bot) => {
@@ -121,7 +121,7 @@ bot.onTextMessage(/^smegma|smegma cakes$/i, (incoming, bot) => {
 -
 //Ass
 bot.onTextMessage(/^asz|ak|butt|butte$/i, (incoming, bot) => {
-  return incoming.reply(`Ass`)
+  return incoming.reply(`I want the thickness there`)
 })
 
 
@@ -152,11 +152,11 @@ bot.onTextMessage(/^Homer|Glen$/i, (incoming, bot) => {
 })
 
 bot.onTextMessage('are you a bot', (incoming, bot) => {
-  return incoming.reply([`no i am your god`,':^)'])
+  return incoming.reply([`Do this do that I am le mother`,'🐷'])
 })
 
-bot.onTextMessage(/^hru$/i, (incoming, bot) => {
-  return incoming.reply(`god`)
+bot.onTextMessage(/^how are you|how are you?|hru$/i, (incoming, bot) => {
+  return incoming.reply(`I wish to die`)
 })
 
 bot.onTextMessage(/^u|bitch|bitche|whore|dumb|cow|gay|shitpost$/i, (incoming, bot) => {
@@ -177,7 +177,7 @@ const message = bot.send(Bot.Message.picture('http://i.imgur.com/oalyVlU.jpg')
 bot.onStartChattingMessage((incoming) => {
   bot.getUserProfile(incoming.from)
     .then((user) => {
-      const message = Bot.Message.text(`${user.firstName} is a silly friend :^)`)
+      const message = Bot.Message.text(`${user.firstName} lek babab`)
 
       incoming.reply(message)
     });
@@ -244,7 +244,7 @@ bot.onTextMessage(/^shitter|shitpost|shitposting|sponge|spongebob|in le$/i, (inc
       //.addTextResponse('Hi!')
       //.addTextResponse('Give me the time')
 
-    return incoming.reply('Nipple '+ incoming.body)
+    return incoming.reply(incoming.body + ' lmao')
   })
 
 
