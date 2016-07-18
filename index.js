@@ -21,7 +21,7 @@ bot.send(Bot.Message.text('Im sorry for the delay, I am back now!'), 'coliphonic
 
 
 bot.onTextMessage(/are you a bot|Are you a bot?|you a bot?|bot|bot?$/i, (incoming, bot) => {
-  return incoming.reply([`no i am your god`,':^)'])
+  return incoming.reply(`no i am the mother`)
 })
 
 // [handler] on greeting
@@ -38,7 +38,7 @@ bot.onTextMessage(/^yoshi$/i, (incoming, bot) => {
 }); 
 
 bot.onTextMessage(/^eeza|asa$/i, (incoming, bot) => {
-  incoming.reply(`band`);
+  incoming.reply(incoming.body + `band`);
 });
 
 
@@ -120,7 +120,7 @@ bot.onTextMessage(/^smegma|smegma cakes$/i, (incoming, bot) => {
 })
 -
 //Ass
-bot.onTextMessage(/^asz|ak|butt|butte$/i, (incoming, bot) => {
+bot.onTextMessage(/^ass|asz|ak|butt|butte$/i, (incoming, bot) => {
   return incoming.reply(`I want the thickness there`)
 })
 
